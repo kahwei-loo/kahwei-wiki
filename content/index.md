@@ -1,19 +1,24 @@
+# Wiki 知识库索引
+
+> 本文件由 AI 自动维护，请勿手动编辑。
+
+## 使用方法
+
+对 AI 说：
+- **"ingest [[70 Raw/文件名]]"** → AI 消化资料并更新此索引
+- **"query: 你的问题"** → AI 检索 Wiki 回答，结果存入 85 Outputs/
+- **"lint"** → AI 检查 Wiki 健康状态
+
 ---
-title: KahWei's Wiki
----
 
-# KahWei's Wiki
+## 目录
 
-> AI 编译的个人知识库，基于 [Karpathy LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) 工作流。
+> 当 Wiki 中有内容时，AI 会在这里维护分类索引。
 
-人类策展原料，AI 编译知识。
+<!-- AI_INDEX_START -->
 
-## 浏览方式
+### AI 工具与基础设施
 
-- 左侧目录或顶部搜索栏浏览所有主题
-- 页面之间的 `[[双链]]` 可以跳转相关概念
-- 右侧 Graph View 查看知识图谱
+- [[Ollama 本地 LLM 运行器]] — 一行命令本地运行开源 LLM，OpenAI 兼容 API
 
-## 知识库状态
-
-查看 [[log|操作日志]] 了解最近更新。
+<!-- AI_INDEX_END -->

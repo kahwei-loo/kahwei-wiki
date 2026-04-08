@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[20 Areas/AI-Learning/ClaudeCode/Vector-Indexing-Best-Practices-CN]]"
+  - "AI-Learning/ClaudeCode — Vector-Indexing-Best-Practices notes"
 tags: [ai, rag, vector-db, engineering]
 ---
 

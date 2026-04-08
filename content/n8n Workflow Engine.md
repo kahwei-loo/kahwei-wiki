@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[30 Resources/Trending AI Repos 2026/04-n8n]]"
+  - "Trending AI Repos 2026 — n8n"
 tags: [ai, automation, workflow, no-code, tools]
 ---
 
@@ -60,6 +60,6 @@ docker run -it --rm --name n8n -p 5678:5678 \
 
 ## Sources
 
-- [[30 Resources/Trending AI Repos 2026/04-n8n]]
+- Trending AI Repos 2026 — n8n
 - [GitHub: n8n-io/n8n](https://github.com/n8n-io/n8n)
 - [Official site: n8n.io](https://n8n.io/)

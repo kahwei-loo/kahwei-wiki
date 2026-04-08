@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[30 Resources/Trending AI Repos 2026/02-Autoresearch]]"
+  - "Trending AI Repos 2026 — Autoresearch"
 tags: [ai, ml-research, karpathy, automation]
 ---
 
@@ -38,5 +38,5 @@ Shifts ML research from "human runs one experiment at a time" to "human sets dir
 
 ## Sources
 
-- [[30 Resources/Trending AI Repos 2026/02-Autoresearch]]
+- Trending AI Repos 2026 — Autoresearch
 - [GitHub: karpathy/autoresearch](https://github.com/karpathy/autoresearch)

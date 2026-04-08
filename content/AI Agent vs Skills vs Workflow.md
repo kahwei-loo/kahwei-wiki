@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[20 Areas/AI-Learning/agent-vs-skills]]"
+  - "AI-Learning — agent-vs-skills notes"
 tags: [ai, architecture, agent, skills]
 ---
 
@@ -90,4 +90,4 @@ Workflow: User selects template → uploads file → preprocessing
 
 ## Sources
 
-- [[20 Areas/AI-Learning/agent-vs-skills]] — Personal learning notes with corrections
+- AI-Learning — agent-vs-skills — Personal learning notes with corrections

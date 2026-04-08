@@ -2,7 +2,7 @@
 created: 2026-04-07
 updated: 2026-04-08
 sources:
-  - "[[70 Raw/2026-03-18-ollama-local-llm-runner]]"
+  - "Raw/2026-03-18-ollama-local-llm-runner"
 tags: [ai, local-llm, tools]
 ---
 
@@ -89,6 +89,6 @@ docker run -d -v ollama:/root/.ollama -p 11434:11434 ollama/ollama
 
 ## Sources
 
-- [[70 Raw/2026-03-18-ollama-local-llm-runner]] — Trending AI Repos 2026 series
+- Raw/2026-03-18-ollama-local-llm-runner — Trending AI Repos 2026 series
 - [GitHub: ollama/ollama](https://github.com/ollama/ollama)
 - [Official site: ollama.com](https://ollama.com/)

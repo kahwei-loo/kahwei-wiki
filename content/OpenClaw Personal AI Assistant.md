@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[30 Resources/Trending AI Repos 2026/01-OpenClaw]]"
+  - "Trending AI Repos 2026 — OpenClaw"
 tags: [ai, local-first, assistant, tools]
 ---
 
@@ -46,5 +46,5 @@ A personal AI assistant that runs on your own devices, connects to platforms you
 
 ## Sources
 
-- [[30 Resources/Trending AI Repos 2026/01-OpenClaw]]
+- Trending AI Repos 2026 — OpenClaw
 - [GitHub: openclaw/openclaw](https://github.com/openclaw/openclaw)

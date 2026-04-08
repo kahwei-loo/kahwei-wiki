@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[30 Resources/Trending AI Repos 2026/10-LLM-C]]"
+  - "Trending AI Repos 2026 — LLM-C"
 tags: [ai, training, karpathy, systems, advanced]
 ---
 
@@ -39,5 +39,5 @@ Strips away every abstraction until only the essential math and GPU operations r
 
 ## Sources
 
-- [[30 Resources/Trending AI Repos 2026/10-LLM-C]]
+- Trending AI Repos 2026 — LLM-C
 - [GitHub: karpathy/llm.c](https://github.com/karpathy/llm.c)

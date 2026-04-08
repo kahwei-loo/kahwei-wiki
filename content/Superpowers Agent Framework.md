@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[30 Resources/Trending AI Repos 2026/09-Superpowers]]"
+  - "Trending AI Repos 2026 — Superpowers"
 tags: [ai, agent, methodology, developer-tools]
 ---
 
@@ -39,5 +39,5 @@ Like giving your AI coding assistant an **engineering bootcamp**.
 
 ## Sources
 
-- [[30 Resources/Trending AI Repos 2026/09-Superpowers]]
+- Trending AI Repos 2026 — Superpowers
 - [GitHub: obra/superpowers](https://github.com/obra/superpowers)

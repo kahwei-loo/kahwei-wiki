@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[30 Resources/Trending AI Repos 2026/07-GitNexus]]"
+  - "Trending AI Repos 2026 — GitNexus"
 tags: [ai, developer-tools, visualization]
 ---
 
@@ -36,5 +36,5 @@ Join a new project with hundreds of files and no docs → drop the URL into GitN
 
 ## Sources
 
-- [[30 Resources/Trending AI Repos 2026/07-GitNexus]]
+- Trending AI Repos 2026 — GitNexus
 - [GitHub: abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus)

@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[30 Resources/Trending AI Repos 2026/03-MicroGPT]]"
+  - "Trending AI Repos 2026 — MicroGPT"
 tags: [ai, education, karpathy, transformer]
 ---
 
@@ -34,5 +34,5 @@ Strips away every abstraction to reveal the pure algorithm. Part of Karpathy's e
 
 ## Sources
 
-- [[30 Resources/Trending AI Repos 2026/03-MicroGPT]]
+- Trending AI Repos 2026 — MicroGPT
 - [Karpathy's blog post](http://karpathy.github.io/2026/02/12/microgpt/)

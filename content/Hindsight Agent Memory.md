@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[30 Resources/Trending AI Repos 2026/06-Hindsight]]"
+  - "Trending AI Repos 2026 — Hindsight"
 tags: [ai, agent, memory, infrastructure]
 ---
 
@@ -41,5 +41,5 @@ AI agents are becoming more powerful ([[Autoresearch Autonomous ML|Autoresearch]
 
 ## Sources
 
-- [[30 Resources/Trending AI Repos 2026/06-Hindsight]]
+- Trending AI Repos 2026 — Hindsight
 - [GitHub: vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)

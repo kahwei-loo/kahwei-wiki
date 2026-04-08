@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[20 Areas/AI-Learning/L1-L5]]"
+  - "AI-Learning — L1-L5 notes"
 tags: [ai, framework, maturity-model]
 ---
 
@@ -83,4 +83,4 @@ AI not only executes goals but redefines them. Self-iterating, research/enterpri
 
 ## Sources
 
-- [[20 Areas/AI-Learning/L1-L5]] — Personal learning notes
+- AI-Learning — L1-L5 — Personal learning notes

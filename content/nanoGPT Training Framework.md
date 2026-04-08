@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[30 Resources/Trending AI Repos 2026/08-NanoGPT]]"
+  - "Trending AI Repos 2026 — NanoGPT"
 tags: [ai, education, karpathy, training]
 ---
 
@@ -35,5 +35,5 @@ tags: [ai, education, karpathy, training]
 
 ## Sources
 
-- [[30 Resources/Trending AI Repos 2026/08-NanoGPT]]
+- Trending AI Repos 2026 — NanoGPT
 - [GitHub: karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)

@@ -5,7 +5,7 @@
 ## How to Use
 
 Tell AI:
-- **"ingest [[70 Raw/filename]]"** → AI digests material and updates this index
+- **"ingest `70 Raw/filename`"** → AI digests material and updates this index
 - **"query: your question"** → AI searches Wiki to answer, saves results to 85 Outputs/
 - **"lint"** → AI runs a health check on the Wiki
 

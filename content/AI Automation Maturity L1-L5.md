@@ -79,7 +79,7 @@ AI not only executes goals but redefines them. Self-iterating, research/enterpri
 
 - [[AI Agent vs Skills vs Workflow]]
 - [[n8n Workflow Engine]]
-- [[Superpowers Agent Framework]]
+- [[Multi-Agent Architecture Patterns]]
 
 ## Sources
 

@@ -86,7 +86,7 @@ Workflow: User selects template → uploads file → preprocessing
 
 - [[AI Automation Maturity L1-L5]]
 - [[n8n Workflow Engine]]
-- [[Superpowers Agent Framework]]
+- [[Multi-Agent Architecture Patterns]]
 
 ## Sources
 

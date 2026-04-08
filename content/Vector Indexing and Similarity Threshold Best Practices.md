@@ -2,7 +2,7 @@
 created: 2026-04-08
 updated: 2026-04-08
 sources:
-  - "[[20 Areas/AI-Learning/ClaudeCode/业界在向量索引和相似度阈值方面的最佳实践]]"
+  - "[[20 Areas/AI-Learning/ClaudeCode/Vector-Indexing-Best-Practices-CN]]"
 tags: [ai, rag, vector-db, engineering]
 ---
 
@@ -125,4 +125,4 @@ RETRIEVAL = {
 
 ## Sources
 
-- [[20 Areas/AI-Learning/ClaudeCode/业界在向量索引和相似度阈值方面的最佳实践]] — RAG system optimization research
+- Original source: AI-Learning/ClaudeCode — RAG system optimization research

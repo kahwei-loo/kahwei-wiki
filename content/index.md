@@ -22,15 +22,21 @@ Tell AI:
 
 ### Architecture Deep Dives
 
-- [[Claude Code Architecture Deep Dive]] — Agent loop, 7-layer memory, 3 subagent models, 10 reusable patterns from a $25B ARR product
-- [[OpenClaw Architecture Deep Dive]] — Open-source personal AI assistant; multi-platform agent, self-evolving skills, plugin system
+- [[Claude Code Architecture Deep Dive]] — Agent loop, 7-layer memory, 3 subagent models, 10 reusable commercial patterns
+- [[OpenClaw Architecture Deep Dive]] — Open-source personal AI: PI runtime, hub-and-spoke Gateway, markdown skills, file-based memory
 - [[Multi-Agent Architecture Patterns]] — LangGraph vs Claude SDK vs CrewAI; coordinator pattern, model tiering, production trade-offs
-- [[Agent Memory Systems]] — Claude Code 7-layer, Letta/MemGPT, Mem0; the pointer-based architecture pattern
-- [[RAG Architecture Patterns 2026]] — Hybrid search, GraphRAG, Agentic RAG, contextual retrieval, adaptive thresholds
+- [[Agent Memory Systems]] — Claude Code 7-layer, Letta/MemGPT, Mem0; pointer-based architecture and autoDream consolidation
+- [[RAG Architecture Patterns 2026]] — Hybrid search, GraphRAG, Agentic RAG, contextual retrieval, 3-stage pipeline
+
+### AI Infrastructure & Standards
+
+- [[MCP Architecture and Ecosystem]] — Model Context Protocol: spec, transports, OAuth, 1000+ servers, adoption landscape
+- [[AI Evals and Testing]] — Eval-driven development, RAG testing, agent evaluation, platform comparison
+- [[AI Coding Tools Landscape 2026]] — Claude Code vs Cursor vs Copilot vs Codex vs Devin; 3 architectural camps
 
 ### AI Tools & Models
 
-- [[Open Source LLM Landscape 2026]] — Gemma 4, Qwen 3.5/3.6, Llama 4, DeepSeek; head-to-head benchmarks and selection guide
+- [[Open Source LLM Landscape 2026]] — Gemma 4, Qwen 3.5/3.6, Llama 4, DeepSeek; benchmarks and selection guide
 - [[Ollama Local LLM Runner]] — Run open-source LLMs locally with OpenAI-compatible API
 - [[n8n Workflow Engine]] — Open-source AI-native visual workflow automation
 

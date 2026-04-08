@@ -5,6 +5,12 @@
 ---
 
 <!-- AI_LOG_START -->
+## 2026-04-08 (New Pages)
+
+- **new** [[MCP Architecture and Ecosystem]] — Protocol spec, transports, OAuth, adoption, 1000+ server ecosystem
+- **new** [[AI Coding Tools Landscape 2026]] — Full competitive map: Claude Code, Cursor, Copilot, Codex, Devin, Kiro, Aider
+- **new** [[AI Evals and Testing]] — Eval platforms, EDD workflow, RAG testing, agent evaluation patterns
+
 ## 2026-04-08 (Major Restructure)
 
 - **new** [[Claude Code Architecture Deep Dive]] — Deep analysis from source leak: agent loop, memory, subagent models, 10 commercial patterns

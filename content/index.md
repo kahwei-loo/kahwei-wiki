@@ -1,6 +1,6 @@
 # Wiki Index
 
-> This file is maintained automatically by AI. Do not edit manually.
+> Maintained automatically by AI. Do not edit manually.
 
 ## How to Use
 
@@ -17,27 +17,25 @@ Tell AI:
 
 ### AI Concepts & Frameworks
 
-- [[AI Automation Maturity L1-L5]] — L1-L5 maturity model for AI/automation integration; watershed at L3
-- [[AI Agent vs Skills vs Workflow]] — When to use agents, skills, or workflows; the uncertainty × cost × token equation
+- [[AI Automation Maturity L1-L5]] — L1-L5 maturity model; watershed at L3 (tool proficiency vs system design)
+- [[AI Agent vs Skills vs Workflow]] — When to use each; the uncertainty x failure cost x token cost equation
 
-### AI Tools & Infrastructure
+### Architecture Deep Dives
 
-- [[Ollama Local LLM Runner]] — Run open-source LLMs locally, OpenAI-compatible API
+- [[Claude Code Architecture Deep Dive]] — Agent loop, 7-layer memory, 3 subagent models, 10 reusable patterns from a $25B ARR product
+- [[OpenClaw Architecture Deep Dive]] — Open-source personal AI assistant; multi-platform agent, self-evolving skills, plugin system
+- [[Multi-Agent Architecture Patterns]] — LangGraph vs Claude SDK vs CrewAI; coordinator pattern, model tiering, production trade-offs
+- [[Agent Memory Systems]] — Claude Code 7-layer, Letta/MemGPT, Mem0; the pointer-based architecture pattern
+- [[RAG Architecture Patterns 2026]] — Hybrid search, GraphRAG, Agentic RAG, contextual retrieval, adaptive thresholds
+
+### AI Tools & Models
+
+- [[Open Source LLM Landscape 2026]] — Gemma 4, Qwen 3.5/3.6, Llama 4, DeepSeek; head-to-head benchmarks and selection guide
+- [[Ollama Local LLM Runner]] — Run open-source LLMs locally with OpenAI-compatible API
 - [[n8n Workflow Engine]] — Open-source AI-native visual workflow automation
-- [[OpenClaw Personal AI Assistant]] — Local-first self-evolving assistant across 50+ platforms
-- [[Hindsight Agent Memory]] — Human-like persistent memory for AI agents
-- [[GitNexus Code Knowledge Graph]] — Browser-based interactive code visualization
-- [[Superpowers Agent Framework]] — Disciplined engineering methodology for AI coding agents
 
-### LLM Training & Education (Karpathy)
+### Education & Research
 
-- [[MicroGPT Educational LLM]] — Complete GPT in 200 lines of pure Python, zero dependencies
-- [[nanoGPT Training Framework]] — Simplest repo for training real GPT models (~600 lines)
-- [[llm.c Pure C Training]] — GPT-2 training in pure C/CUDA, hardware-level understanding
-- [[Autoresearch Autonomous ML]] — AI that runs 100+ ML experiments overnight autonomously
-
-### Engineering Practices
-
-- [[Vector Indexing and Similarity Threshold Best Practices]] — HNSW, adaptive thresholds, hybrid retrieval with reranking
+- [[Karpathy LLM Education Stack]] — MicroGPT → nanoGPT → llm.c → Autoresearch; algorithm to hardware to autonomous research
 
 <!-- AI_INDEX_END -->

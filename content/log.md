@@ -5,22 +5,24 @@
 ---
 
 <!-- AI_LOG_START -->
-## 2026-04-08
+## 2026-04-08 (Major Restructure)
 
-- **ingest** AI-Learning/L1-L5 → created [[AI Automation Maturity L1-L5]]
-- **ingest** AI-Learning/agent-vs-skills → created [[AI Agent vs Skills vs Workflow]]
-- **ingest** AI-Learning/ClaudeCode/Vector-Indexing-Best-Practices → created [[Vector Indexing and Similarity Threshold Best Practices]]
-- **ingest** Trending AI Repos 2026/OpenClaw → created [[OpenClaw Personal AI Assistant]]
-- **ingest** Trending AI Repos 2026/Autoresearch → created [[Autoresearch Autonomous ML]]
-- **ingest** Trending AI Repos 2026/MicroGPT → created [[MicroGPT Educational LLM]]
-- **ingest** Trending AI Repos 2026/n8n → created [[n8n Workflow Engine]]
-- **ingest** Trending AI Repos 2026/Hindsight → created [[Hindsight Agent Memory]]
-- **ingest** Trending AI Repos 2026/GitNexus → created [[GitNexus Code Knowledge Graph]]
-- **ingest** Trending AI Repos 2026/NanoGPT → created [[nanoGPT Training Framework]]
-- **ingest** Trending AI Repos 2026/Superpowers → created [[Superpowers Agent Framework]]
-- **ingest** Trending AI Repos 2026/LLM-C → created [[llm.c Pure C Training]]
-- **update** Switched all pages from Chinese to English
-- **update** Rewrote [[Ollama Local LLM Runner]] in English
+- **new** [[Claude Code Architecture Deep Dive]] — Deep analysis from source leak: agent loop, memory, subagent models, 10 commercial patterns
+- **new** [[Open Source LLM Landscape 2026]] — Gemma 4, Qwen 3.5/3.6, Llama 4, DeepSeek comparison with benchmarks
+- **new** [[Multi-Agent Architecture Patterns]] — Production frameworks + Claude Code's 3 subagent models
+- **new** [[Agent Memory Systems]] — Claude Code 7-layer + Letta/MemGPT + Mem0 + autoDream analysis
+- **new** [[RAG Architecture Patterns 2026]] — Hybrid search, GraphRAG, Agentic RAG, contextual retrieval
+- **new** [[Karpathy LLM Education Stack]] — Merged MicroGPT + nanoGPT + llm.c + Autoresearch into one page
+- **new** [[OpenClaw Architecture Deep Dive]] — Open-source agent architecture analysis
+- **rewrite** [[Ollama Local LLM Runner]] — Updated with Gemma 4, Qwen3-Coder, current model availability
+- **rewrite** RAG page → [[RAG Architecture Patterns 2026]] — From basic vector indexing to full architecture guide
+- **delete** Hindsight Agent Memory (merged into Agent Memory Systems)
+- **delete** GitNexus Code Knowledge Graph (too shallow)
+- **delete** Superpowers Agent Framework (too shallow)
+- **delete** OpenClaw Personal AI Assistant (replaced by architecture deep dive)
+- **delete** MicroGPT, nanoGPT, llm.c, Autoresearch (merged into Karpathy Education Stack)
+- **update** Switched language convention to English
+- **update** All source links converted from wikilinks to plain text
 
 ## 2026-04-07
 

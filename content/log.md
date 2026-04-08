@@ -5,6 +5,14 @@
 ---
 
 <!-- AI_LOG_START -->
+## 2026-04-09
+
+- **new** [[LLM Security and Guardrails]] — OWASP Top 10, prompt injection, guardrail frameworks, layered defense
+- **new** [[Production Prompt Engineering]] — System prompt architecture, caching economics, extended thinking, meta-prompting
+- **new** [[Fine-tuning vs Prompting vs RAG]] — Decision framework, LoRA/QLoRA, distillation patterns
+- **new** [[LLM Inference and Serving]] — vLLM, quantization methods, hardware guide, cloud providers
+- **new** [[AI Cost Optimization]] — Prompt caching, model tiering, batch API, production cost examples
+
 ## 2026-04-08 (New Pages)
 
 - **new** [[MCP Architecture and Ecosystem]] — Protocol spec, transports, OAuth, adoption, 1000+ server ecosystem

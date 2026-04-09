@@ -36,6 +36,14 @@ Tell AI:
 - [[AI Evals and Testing]] — Eval-driven development, RAG testing, agent evaluation, platform comparison
 - [[LLM Inference and Serving]] — vLLM, quantization (AWQ/GGUF), hardware guide, self-hosted vs API crossover
 - [[AI Cost Optimization]] — Prompt caching, model tiering, batch API, token economics, production cost examples
+- [[Data Engineering for AI]] — RAG pipelines, chunking, embeddings, data quality monitoring, synthetic data, PII handling
+
+### AI Product (Commercial)
+
+- [[AI Product Architecture]] — End-to-end system design: auth, billing, API, frontend, queues, multi-tenant, scaling
+- [[AI UX Patterns]] — Streaming UI, loading states, error handling, feedback mechanisms, conversation UX
+- [[AI Product Metrics]] — Task completion, deflection rate, CSAT, cost per conversation, OKR templates
+- [[LLM Observability and Monitoring]] — Production monitoring, tracing tools, OpenTelemetry, cost alerts, debugging
 
 ### AI Infrastructure & Standards
 

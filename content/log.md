@@ -5,6 +5,14 @@
 ---
 
 <!-- AI_LOG_START -->
+## 2026-04-09 (Commercial Product Layer)
+
+- **new** [[AI Product Architecture]] — End-to-end system design: auth, billing, API, frontend, queues, multi-tenant
+- **new** [[AI UX Patterns]] — Streaming UI, loading states, error handling, feedback, conversation UX
+- **new** [[AI Product Metrics]] — Business metrics: task completion, deflection, CSAT, cost per conversation
+- **new** [[LLM Observability and Monitoring]] — Production monitoring, tracing, OpenTelemetry, debugging, cost alerts
+- **new** [[Data Engineering for AI]] — RAG pipelines, chunking, embeddings, data quality, synthetic data, PII
+
 ## 2026-04-09
 
 - **new** [[LLM Security and Guardrails]] — OWASP Top 10, prompt injection, guardrail frameworks, layered defense

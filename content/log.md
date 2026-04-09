@@ -5,6 +5,13 @@
 ---
 
 <!-- AI_LOG_START -->
+## 2026-04-09 (Project Deep Dives)
+
+- **new** [[DeerFlow SuperAgent Framework]] — ByteDance's LangGraph SuperAgent with Docker sandbox, 5 agent roles
+- **new** [[Mem0 Memory Architecture]] — LLM extraction pipeline, graph memory, Mem0 vs Letta decision framework
+- **new** [[Mastra Agent Framework]] — TypeScript-native with Observational Memory (94.87% LongMemEval)
+- **update** [[Claude Code Architecture Deep Dive]] — Added 5 missing sections: hidden features (88 flags), KAIROS daemon, Buddy system, anti-distillation, Undercover Mode
+
 ## 2026-04-09 (Commercial Product Layer)
 
 - **new** [[AI Product Architecture]] — End-to-end system design: auth, billing, API, frontend, queues, multi-tenant

@@ -153,6 +153,84 @@ Patterns extracted from Claude Code that apply to any LLM agent product:
 | 9 | **Compile-time Feature Flags** | Dead code elimination per tier, not runtime if/else |
 | 10 | **Frustration Detection** | Regex-based emotion detection triggers mode switches |
 
+## Hidden Features (88 Compile-Time Flags)
+
+Anthropic uses **Bun's dead code elimination** to completely remove disabled features at build time. External users get a fundamentally different binary than internal Anthropic employees (`USER_TYPE === 'ant'`).
+
+### Internal-Only Features
+
+| Codename | Description | Status |
+|----------|-------------|--------|
+| **KAIROS** | Persistent daemon mode — proactively monitors workflows and acts without user prompting | Internal only |
+| **ULTRAPLAN** | 30-minute multi-agent remote planning session — multiple agents collaboratively design complex plans | Internal only |
+| **Chicago** | Computer Use — controls macOS desktop via MCP (mouse, keyboard, screenshots) | Internal only |
+| **Bagel** | Integrated browser — full web navigation (not WebFetch, a real browser) | Internal only |
+| **Teleport** | Remote session context transfer — "teleport" a session's state to another machine | Internal only |
+| **Voice Mode** | Streaming speech-to-text, microphone input | Testing |
+| **BUDDY** | Tamagotchi companion system | Previewed April, launching May 2026 |
+
+### Flag Architecture
+
+- **88 compile-time flags**: Processed by Bun at build time. Disabled features are completely deleted from the final binary — not runtime toggled, physically absent
+- **700+ runtime flags**: Controlled by GrowthBook. Code exists but toggled at runtime for A/B testing and gradual rollout
+
+## KAIROS: Proactive Daemon Mode
+
+Unlike standard reactive AI (waits for user input), KAIROS is **proactive** — it continuously observes, infers, and acts without being asked.
+
+```
+class KairosDaemon {
+  private dailyLog = new AppendOnlyLog(`~/.kairos/${today}.log`)
+  
+  async observe(event: WorkflowEvent) {
+    // Append-only: never modify, only add
+    this.dailyLog.append({
+      timestamp: Date.now(),
+      type: event.type,
+      context: event.context,
+      inference: await this.infer(event)  // Real-time intent inference
+    })
+  }
+  
+  async proactiveAct() {
+    const pattern = await this.detectPattern(this.dailyLog)
+    if (pattern.confidence > THRESHOLD) {
+      this.notifyUser(pattern.suggestion)  // Act without being asked
+    }
+  }
+}
+```
+
+The append-only log design ensures history is immutable and provides reliable input for autoDream memory consolidation.
+
+## Buddy: Tamagotchi Companion System
+
+A deterministic virtual pet generated per user:
+
+- **Species selection**: Mulberry32 PRNG seeded with `hash(userId + 'friend-2026-401')`. 18 species with rarity tiers (Common → Legendary) + Shiny variants
+- **Personality**: Claude generates a unique "soul description" at first hatch — this becomes the Buddy's permanent personality
+- **System prompt**: Buddy has its own independent system prompt. It's a "watcher" that sits beside the input box and occasionally comments. When addressed by name, it responds directly (1-2 sentences max)
+- **Deterministic**: Same user always hatches the same Buddy — reproducible via PRNG, not random
+
+## Anti-Distillation System
+
+Two layers preventing competitors from training on Claude Code's outputs:
+
+### Layer 1: Fake Tool Injection
+Injects plausible but non-functional tool definitions into outputs when distillation is detected. A competitor training on these outputs would learn to call tools that don't exist.
+
+### Layer 2: Encrypted Signature Summaries
+Embeds cryptographically signed metadata in generated summaries. If these appear in a competitor's model outputs, Anthropic can prove the training data originated from Claude Code.
+
+## Undercover Mode
+
+When Claude Code contributes to open-source repositories, it can hide its AI identity:
+
+- Strips AI-identifying patterns from commit messages and code comments
+- Removes internal codenames and feature flag references
+- Adjusts coding style to appear human-authored
+- Ironically, Anthropic's own source leak happened despite having this system
+
 ## Commercial Application Map
 
 | Priority | What to Build | Pattern Source |

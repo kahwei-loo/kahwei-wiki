@@ -21,10 +21,16 @@ Tell AI:
 - [[AI Agent vs Skills vs Workflow]] — When to use each; the uncertainty x failure cost x token cost equation
 - [[Fine-tuning vs Prompting vs RAG]] — Decision framework: when to fine-tune, when to prompt, when to RAG, distillation patterns
 
-### Architecture Deep Dives
+### Project Deep Dives
 
-- [[Claude Code Architecture Deep Dive]] — Agent loop, 7-layer memory, 3 subagent models, 10 reusable commercial patterns
-- [[OpenClaw Architecture Deep Dive]] — Open-source personal AI: PI runtime, hub-and-spoke Gateway, markdown skills, file-based memory
+- [[Claude Code Architecture Deep Dive]] — Agent loop, 7-layer memory, 3 subagent models, KAIROS, anti-distillation, 10 commercial patterns
+- [[OpenClaw Architecture Deep Dive]] — PI runtime, hub-and-spoke Gateway, markdown skills, cron autonomy
+- [[DeerFlow SuperAgent Framework]] — ByteDance's LangGraph-based SuperAgent with Docker sandbox, 5 agent roles, checkpointing
+- [[Mem0 Memory Architecture]] — LLM extraction pipeline, graph memory (Mem0-g), Mem0 vs Letta decision framework
+- [[Mastra Agent Framework]] — TypeScript-native agent framework with Observational Memory (94.87% LongMemEval, no vector DB)
+
+### Architecture Patterns
+
 - [[Multi-Agent Architecture Patterns]] — LangGraph vs Claude SDK vs CrewAI; coordinator pattern, model tiering, production trade-offs
 - [[Agent Memory Systems]] — Claude Code 7-layer, Letta/MemGPT, Mem0; pointer-based architecture and autoDream consolidation
 - [[RAG Architecture Patterns 2026]] — Hybrid search, GraphRAG, Agentic RAG, contextual retrieval, 3-stage pipeline
